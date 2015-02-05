@@ -12,7 +12,7 @@ ul.nav{
 }
 
 footer {
-background-color: #f74c3c;
+background-color: #112469;
 padding-top: 150px;
 padding-bottom: 30px;
 }
@@ -23,7 +23,7 @@ padding-bottom: 30px;
 
 .jumbotron {
 	text-align: center;
-	background-image: url('../images/hero_image.jpg');
+	background-image: url('../images/dirt.jpg');
 	color: white;
 }
 .jumbotron h1{
@@ -49,7 +49,7 @@ padding-bottom: 30px;
 }
 
 .homepage h2, .homepage h3{
-	color: #e74c3c;
+	color: #112469;
 	font-family: 'Arvo', courier, serif;
 	text-transform: uppercase;
 }
@@ -68,17 +68,17 @@ padding-bottom: 30px;
 }
 
 .homepage a{
-	color: #e74c3c;
+	color: #112469;
 }
 
 .homepage a:hover {
-	color: #e74c3c;
+	color: #112469;
 	text-decoration: none;
 	opacity: .8;
 }
 
 .homepage hr {
-	border-top: 1px solid#e74c3c;
+	border-top: 1px solid#112469;
 	width: 160px;
 	margin-top: 15px;
 
