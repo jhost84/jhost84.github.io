@@ -11,3 +11,4 @@ $("a.navbar-brand[href^='#']").on('click', function(e) {
 
    // edit: Opera and IE requires the "html" elm. animated
 });
+
