@@ -3,7 +3,7 @@
 
 
 body {
-    background: url(../images/background.jpg) no-repeat;
+    background: url(../../images/dirt.jpg) no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: 50% 50%;
@@ -129,7 +129,7 @@ fieldset[disabled] .btn-primary.active {
 /**** Start Background Color ****/
 
 .blue {
-    background: #28ABE3;
+    background: #0e0a30;
 }
 
 .green {
