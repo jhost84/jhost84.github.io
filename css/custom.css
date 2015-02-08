@@ -45,7 +45,7 @@ padding-bottom: 50px;
 }
 
 .modal-content iframe {
-	
+
 	max-height: 420px;
     overflow-y: auto;
 }
@@ -161,10 +161,7 @@ padding-bottom: 50px;
 		padding-bottom: 20px;
 	}
 
-	/*#myModal #myModal2 {
-		width: auto;
-		height: auto;
-	} */
+	
 
 
 	footer img {
