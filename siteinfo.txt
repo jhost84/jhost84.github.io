@@ -1,3 +1,5 @@
 http://www.makerbased.com/oml/
 
 http://getbootstrap.com/css/#buttons-disabled
+
+http://coolestguidesontheplanet.com/bootstrap/modal.php
