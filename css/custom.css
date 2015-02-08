@@ -133,6 +133,7 @@ padding-bottom: 50px;
 		padding-bottom: 20px;
 	}
 
+
  @media (max-width: 767px) { 
 
 	.jumbotron h1 {
@@ -157,6 +158,11 @@ padding-bottom: 50px;
 		padding-top: 20px;
 		padding-bottom: 20px;
 	}
+
+	#myModal #myModal2 {
+		width: auto;
+	}
+
 
 	footer img {
 		width: 80%;
