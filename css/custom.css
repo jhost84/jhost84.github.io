@@ -46,6 +46,8 @@ padding-bottom: 50px;
 
 .modal-content iframe {
 	
+	max-height: 420px;
+    overflow-y: auto;
 }
 
 .modal-content button.close{
@@ -159,9 +161,10 @@ padding-bottom: 50px;
 		padding-bottom: 20px;
 	}
 
-	#myModal #myModal2 {
+	/*#myModal #myModal2 {
 		width: auto;
-	}
+		height: auto;
+	} */
 
 
 	footer img {
@@ -185,4 +188,28 @@ padding-bottom: 50px;
   .modal-lg {
     width: 900px;
   }
+}
+/* Responsive iFrame */
+ 
+.responsive-iframe-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+
+}
+ 
+.responsive-iframe-container iframe,   
+.vresponsive-iframe-container object,  
+.vresponsive-iframe-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.modal .modal-body {
+    max-height: 420px;
+    overflow-y: auto;
 }
