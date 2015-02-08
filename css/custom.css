@@ -44,6 +44,25 @@ padding-bottom: 50px;
 	padding: 0 50px;
 }
 
+.modal-content iframe {
+	
+}
+
+.modal-content button.close{
+	<button type="button" class="close" data-dismiss="modal" aria-label="Close" style="
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: white;
+    font-size: 28px;
+    width: 30px;
+    opacity: 1;
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+"><span aria-hidden="true">×</span></button>
+}
+
 .btn-lg {
 	font-size: 36px;
 }
