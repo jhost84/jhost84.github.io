@@ -176,3 +176,28 @@ function init() {
         icon: image
     });
 }
+
+// GOOGLE FORMS SUBMIT 
+function postToGoogle() {
+    var inputName = $j("#inputName").val();
+    var inputNumber = $j("#inputNumber").val();
+    var inputNick = $j("#inputNick").val();
+    var inputEmail = $j("#inputEmail").val()
+    
+
+    $.ajax({
+        url: "https://docs.google.com/forms/d/1uefEWAQkQOIaLqG8jIOjQaHHIhVAvjM2p_crepzyX6E/formResponse",
+        data: {"entry.1545302622": inputName, "entry.618313503": inputNumber, "entry.1668475875": inputNick, "entry.1002428503": inputEmail, type: "POST",
+            dataType: "xml",
+            statusCode: {
+                0: function() {
+                    //Success message
+                },
+                200: function() {
+                    //Success Message
+                }
+            }
+        }
+    });        
+   };
+  </script>
