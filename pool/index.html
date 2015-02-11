@@ -145,8 +145,30 @@
 
                             <hr>
                             <p><small class="text-muted" >Table will be updated every day.</small></p>
-
-                            <form class="form-horizontal">
+<form id="callus" target="_self" onsubmit="" action="javascript: postContactToGoogle()">
+        <fieldset>
+            <label for="name">What's your name? *</label>
+            <input id="name" type="text" name="name">
+        </fieldset>
+        <fieldset>
+            <label for="email">What's your email? *</label>
+            <input id="email" type="text" name="email">
+        </fieldset>
+        <fieldset>
+            <label for="feed">Questions or Feedback?*</label>
+            <textarea id="feed" name="feed"></textarea>
+        </fieldset>
+        <div style="text-align: right; padding-bottom: 15px;">* Required</div>
+        <div style="width: 100%; display: block; float: right;">
+            <button id="send" type="submit">
+                Contact Us
+            </button>
+        </div>
+        <div style="width: 100%; display: block; float: right; padding-top: 15px;">
+            <div class="requestSubmited" style="display:none; text-align: center;">Your request has been sent!</div>
+        </div>
+    </form>
+                         <!--   <form class="form-horizontal">
                              <div class="form-group">
                                <label class="col-lg-2 control-lable" for="inputName">Name</label>
                                <div class="col-lg-10">
@@ -179,7 +201,7 @@
                              </div>
 
 
-                            </form>
+                            </form> -->
 
 
 
@@ -238,7 +260,12 @@
     <!-- Plugin JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
 
-    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <!-- Google Form Submit -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
+  <!--<script>
+
+     Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
    <!--   <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>  -->
 
     <!-- Custom Theme JavaScript -->
