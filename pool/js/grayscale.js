@@ -178,40 +178,26 @@ function init() {
 }
 
 // GOOGLE FORMS SUBMIT 
-<script type="text/javascript">
-    function validateEmail(email) {
-        var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-        return re.test(email);
-    }"
-    function postContactToGoogle(){
-        var name = $j('#name').val();
-        var email = $j('#email').val();
-        var feed = $j('#feed').val();
-        if ((name !== "") && (email !== "") && ((feed !== "") && (validateEmail(email)))) {
-            $j.ajax({
-                url: "https://docs.google.com/forms/d/1uefEWAQkQOIaLqG8jIOjQaHHIhVAvjM2p_crepzyX6E/formResponse",
-                data: {"entry.1" : name, "entry.3" : email, "entry.4": feed},
-                type: "POST",
-                dataType: "xml",
-                statusCode: {
-                    0: function (){
- 
-                        $j('#name').val("");
-                        $j('#email').val("");
-                        $j('#feed').val("");
-                        //Success message
-                    },
-                    200: function (){
-                        $j('#name').val("");
-                        $j('#email').val("");
-                        $j('#feed').val("");
-                        //Success Message
-                    }
+function postToGoogle() {
+    var inputName = $j("#inputName").val();
+    var inputNumber = $j("#inputNumber").val();
+    var inputNick = $j("#inputNick").val();
+    var inputEmail = $j("#inputEmail").val()
+    
+
+    $.ajax({
+        url: "https://docs.google.com/forms/d/1uefEWAQkQOIaLqG8jIOjQaHHIhVAvjM2p_crepzyX6E/formResponse",
+        data: {"entry.1545302622": inputName, "entry.618313503": inputNumber, "entry.1668475875": inputNick, "entry.1002428503": inputEmail, type: "POST",
+            dataType: "xml",
+            statusCode: {
+                0: function() {
+                    //Success message
+                },
+                200: function() {
+                    //Success Message
                 }
-            });
+            }
         }
-        else {
-            //Error message
-        }
-    }
-</script>
+    });        
+   };
+  </script>
