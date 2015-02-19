@@ -146,8 +146,8 @@ a:focus {
     height: auto;
     padding: 100px 0;
     text-align: center;
-    color: white;
-    text-shadow: 2px 2px 4px #000000;
+    color: #fff;
+    text-shadow: 4px 4px 6px #000;
     background: url(../img/balls.jpg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
