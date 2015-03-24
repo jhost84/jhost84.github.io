@@ -1,157 +1,203 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Responsive Bootstrap Multi-Purpose Landing Page Template">
+<meta name="keywords" content="LandX, Bootstrap, Landing page, Template, Registration, Landing">
+<meta name="author" content="Mizanur Rahman">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <title>J-Sports.US</title>
-    <!-- this is out google arvo font and Font-Awesome. -->
-<link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+<!-- SITE TITLE -->
+<title>J-Sports</title>
 
-    <!-- Custom styles for this template -->
-    <link href="css/custom.css" rel="stylesheet">
+<!-- =========================
+      FAV AND TOUCH ICONS  
+============================== -->
+<link rel="icon" href="images/favicon.ico">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
 
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+<!-- =========================
+     STYLESHEETS   
+============================== -->
+<!-- BOOTSTRAP -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
+<!-- FONT ICONS -->
+<!-- IonIcons -->
+<link rel="stylesheet" href="assets/ionicons/css/ionicons.css">
 
-  <body>
+<!-- Font Awesome 
+<link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+-->
 
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#jumbotron"><img src="images/top_logo1.png" title="Jsports" alt="Jsports"></a>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#who">WHO WE ARE</a></li>
-            <li><a href="#get-involved">JOIN</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </nav>
-
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div id="jumbotron" class="jumbotron">
-      <div class="container">
-        <h1>Welcome to <br>J-Sports.us<br> Fantasy Sport Leagues</h1>
-        <p>This is just some random stuff for now untill I finish making the  <strong>Rest</strong> rest of the <strong>Site.</strong>The L7 Weenie Fantasy League and the Sunday night Baseball pools will be up and running soon.</p>
-        <p><a class="btn btn-danger btn-lg" href="#" role="button">Learn more &raquo;</a></p>
-       <!-- <img src="" title="logo" alt="logo">  (ADD LATER ON) -->
-      </div>
-    </div>
-  <div id="who">
-    <div class="container homepage">
-    <img src="images/logo.png" alt="L7 Weenie" title="L7 Weenie">
-      <h2>Who We Are</h2>
-      <hr>
-      <p>We are <a href="#"> J-Sports.us</a>. This is a site for all of the fantasy sport leagues we run</p>
-    </div>
-  <div id="get-involved">
-    <div class="container homepage">
-      <h2>Join</h2>
-       <hr> 
-        <div class="row">
-        <div class="col-md-4">
-        <span class="fa-stack fa-4x">
-          <i class="fa fa-circle fa-stack-2x"></i>
-          <i class="fa fa-group fa-stack-1x fa-inverse"></i>
-         </span>
-          <h3>L7 Weenie</h3>
-          <p>This will redirect you to League page.</p>
-          <p><a class="btn btn-default" href="L7/index.html" target="_parent" role="button">Go To L7 &raquo;</a></p>
-        </div>
-        <div class="col-md-4">
-        <span class="fa-stack fa-4x">
-          <i class="fa fa-circle fa-stack-2x"></i>
-          <i class="fa fa-money fa-stack-1x fa-inverse"></i>
-         </span>
-          <h3>Baseball Pool</h3>
-          <p>This will be the way to join our Sunday Night Baseball Pool. </p>
-          <p><a class="btn btn-default" href="pool/index.html" target="_parent" role="button">The Pool &raquo;</a></p>
-          <!-- Modal Baseball Pool Squares  -->
-                 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-      <div class="modal-content">
-       <!-- Responsive iFrame -->
-       <div class="responsive-iframe-container">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-             <iframe src="https://docs.google.com/spreadsheets/d/1r5UT-LK9eMNxF3gfofpW7Dny5FimzJFCPozZq4vTCeE/pubhtml?gid=631423480?embedded=true#start=embed" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading..</iframe>
-             </div>
-            </div>
-           </div>
-         </div>
-              <!--  https://docs.google.com/spreadsheets/d/1r5UT-LK9eMNxF3gfofpW7Dny5FimzJFCPozZq4vTCeE/pubhtml?gid=631423480  -->
-
-  <!-- Modal Baseball Pool Signup  -->
-          <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-      <div class="modal-content">
-       <!-- Responsive iFrame -->
-       <div class="responsive-iframe-container">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-             <iframe src="https://docs.google.com/forms/d/1uefEWAQkQOIaLqG8jIOjQaHHIhVAvjM2p_crepzyX6E/viewform?embedded=true#start=embed" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading..</iframe>
-             </div>
-            </div>
-           </div>
-         </div>
-
-       </div>
-        <div class="col-md-4">
-        <span class="fa-stack fa-4x">
-          <i class="fa fa-circle fa-stack-2x"></i>
-          <i class="fa fa-star fa-stack-1x fa-inverse"></i>
-         </span>
-          <h3>Other</h3>
-          <p>This will be for any other league we may start in the future.</p>
-          <p><a class="btn btn-default" href="#"  role="button">Coming Soon &raquo;</a></p>
-        </div>
-       </div>
-      </div> <!-- /container -->
-     </div> 
-     </div>
-   
-    <!-- Copy this later for the table
-
-    <div class="container homepage table1" >
-     <h3>Baseball Squares</h3>
-    <iframe width="668px" height="495px" frameborder="0S" src="https://docs.google.com/spreadsheets/d/1r5UT-LK9eMNxF3gfofpW7Dny5FimzJFCPozZq4vTCeE/pubhtml?gid=631423480&ttl=0&amp;single=true&amp;headers=false&amp;range=A1:I9"></iframe>
-    </div> -->
-
-  <footer>
-     <div class="container">      
-        <p><img src="images/footlogo.png"></p>
-      </div>
-  </footer>
-    
+<!-- Elegant Icons -->
+<link rel="stylesheet" href="assets/elegant-icons/style.css">
+<!--[if lte IE 7]><script src="assets/elegant-icons/lte-ie7.js"></script><![endif]-->
 
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/smoothscroll.js"></script>
-  </body>
+
+<!-- CAROUSEL AND LIGHTBOX -->
+<link rel="stylesheet" href="css/owl.theme.css">
+<link rel="stylesheet" href="css/owl.carousel.css">
+<link rel="stylesheet" href="css/nivo-lightbox.css">
+<link rel="stylesheet" href="css/nivo_themes/default/default.css">
+
+<!-- COLORS -->
+<link rel="stylesheet" href="css/colors/blue.css"> <!-- DEFAULT COLOR/ CURRENTLY USING -->
+<!-- <link rel="stylesheet" href="css/colors/red.css"> -->
+<!-- <link rel="stylesheet" href="css/colors/green.css"> -->
+<!-- <link rel="stylesheet" href="css/colors/purple.css"> -->
+<!-- <link rel="stylesheet" href="css/colors/orange.css"> -->
+<!-- <link rel="stylesheet" href="css/colors/blue-munsell.css"> -->
+<!-- <link rel="stylesheet" href="css/colors/slate.css"> -->
+<!-- <link rel="stylesheet" href="css/colors/yellow.css"> -->
+
+<!-- CUSTOM STYLESHEETS -->
+<link rel="stylesheet" href="css/styles.css">
+
+<!-- RESPONSIVE FIXES -->
+<link rel="stylesheet" href="css/responsive.css">
+
+<!--[if lt IE 9]>
+			<script src="js/html5shiv.js"></script>
+			<script src="js/respond.min.js"></script>
+<![endif]-->
+
+<!-- ****************
+      After neccessary customization/modification, Please minify HTML/CSS according to http://browserdiet.com/en/ for better performance
+     **************** -->
+     
+</head>
+
+<body>
+<!-- =========================
+     PRE LOADER       
+============================== -->
+<div class="preloader">
+  <div class="status">&nbsp;</div>
+</div>
+
+<!-- =========================
+     HEADER   
+============================== -->
+<header id="home">
+
+
+		<!-- ONLY LOGO ON HEADER -->
+		<div class="navbar non-sticky">
+			
+			<div class="container">
+				
+				<div class="navbar-header">
+					<br><img src="images/logo.png" alt="">
+				</div>
+				<!--
+				<ul class="nav navbar-nav navbar-right social-navigation hidden-xs">
+					<li><a href="#"><i class="social_facebook_circle"></i></a></li>
+					<li><a href="#"><i class="social_twitter_circle"></i></a></li>
+					<li><a href="#"><i class="social_googleplus_circle"></i></a></li>
+				</ul> -->
+			</div>
+			<!-- /END CONTAINER -->
+			
+		</div>
+		<!-- /END ONLY LOGO ON HEADER -->
+		
+	</div>
+	
+	<!-- HEADING, FEATURES AND REGISTRATION FORM CONTAINER -->
+	<div class="container">
+		
+		<div class="row">
+			
+			<!-- LEFT - HEADING AND TEXTS -->
+			<div class="col-md-10 col-md-offset-1 intro-section">
+				
+				<h1 class="intro">
+				Welcome to <span class="strong colored-text">J-Sports</span> Fantasy Sports <strong>Leagues</strong>
+				</h1>
+				
+				<p class="sub-heading">
+				    Please choose the Sunday Night Baseball Pool or the L7 Weenie Fantasy Baseball league <strong>Below</strong>
+				</p>
+				
+				<!-- CTA BUTTONS -->
+				<div id="cta-5" class="button-container">
+				
+				<a href="pool/index.html" target="_parent" class="btn standard-button">Baseball Pool</a>
+				<a href="L7/index.html" target="_parent" class="btn secondary-button-white">L7 Weenie League</a>
+				
+				</div>
+				
+			</div>
+
+		</div>
+		
+	</div>
+	<!-- /END HEADING, FEATURES AND REGISTRATION FORM CONTAINER -->
+	
+</div>
+
+</header>
+
+
+<!-- =========================
+     SECTION 10 - FOOTER 
+============================== -->
+<footer class="bgcolor-2">
+<div class="container">
+	
+	<div class="copyright">
+		 ©2015 J-Sports Fantasy sports League
+	</div>
+	
+	<ul class="social-icons">
+		<li><a href=""><span class="social_facebook_square"></span></a></li>
+		<li><a href=""><span class="social_twitter_square"></span></a></li>
+		<li><a href=""><span class="social_googleplus_square"></span></a></li>
+		<li><a href=""><span class="social_instagram_square"></span></a></li>
+		</ul>
+	
+</div>
+</footer>
+
+
+<!-- =========================
+     SCRIPTS   
+============================== -->
+<script src="js/jquery.min.js"></script>
+
+<script>
+/* =================================
+   LOADER                     
+=================================== */
+// makes sure the whole site is loaded
+jQuery(window).load(function() {
+	"use strict";
+        // will first fade out the loading animation
+	jQuery(".status").fadeOut();
+        // will fade out the whole DIV that covers the website.
+	jQuery(".preloader").delay(1000).fadeOut("slow");
+})
+
+</script>
+
+<script src="js/bootstrap.min.js"></script>
+<script src="js/retina-1.1.0.min.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/jquery.scrollTo.min.js"></script>
+<script src="js/jquery.localScroll.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/nivo-lightbox.min.js"></script>
+<script src="js/simple-expand.min.js"></script>
+<script src="js/jquery.nav.js"></script>
+<script src="js/jquery.fitvids.js"></script>
+<script src="js/jquery.ajaxchimp.min.js"></script>
+<script src="js/custom.js"></script>
+<!-- ****************
+      After neccessary customization/modification, Please minify JavaScript/jQuery according to http://browserdiet.com/en/ for better performance
+     **************** -->
+</body>
 </html>
