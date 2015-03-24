@@ -27,6 +27,7 @@ h6 {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+    color: #fff;
     letter-spacing: 1px;
 }
 
@@ -34,6 +35,7 @@ p {
     margin: 0 0 25px;
     font-size: 18px;
     line-height: 1.5;
+    color: #fff;
 }
 
 @media(min-width:767px) {
